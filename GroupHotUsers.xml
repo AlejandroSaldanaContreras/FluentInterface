@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="nopCommerce cold users test">
+		<groups>
+			<run>
+				<include name="hot_users" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.fluentinterface.tests.TestSuite1" />
+		</classes>
+	</test>
+</suite>
